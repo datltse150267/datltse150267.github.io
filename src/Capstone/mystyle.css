@@ -1,0 +1,108 @@
+@media screen and (max-width:768px) /*layout cho viewport tu 0->768 px*/
+{
+    * {box-sizing: border-box} 
+    header {
+        width: 100%;
+        float: left;
+    }
+    header div {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    header h1 {
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-size: 3em;
+    }
+    header form {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    section {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    footer {
+        width: 100%;
+        float: left;
+        background-color: #cccccc;
+        text-align: center;
+    }
+    .roll {
+        color: #0000cc;
+        font-size: 1.5em;
+    }
+    .van1 p, .van2 p, .van3 p{
+        width: 100%;
+        float: left;
+        background-color: #9999ff;
+        text-align: center;
+    }
+    .content p {
+        width: 100%;
+        float: left;
+        background-color: #33ffcc;
+        text-align: justify;
+    }
+
+}
+
+@media screen and (min-width:769px) /*layout cho viewport tu 769 px tro len*/
+{
+    * {box-sizing: border-box} 
+    header {
+        width: 100%;
+        float: left;
+        height: 100px;
+    }
+    header div {
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+    header h1 {
+        width: 60%;
+        float: left;
+        text-align: center;
+        font-size: 3em;
+    }
+    header form {
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+    footer {
+        width: 100%;
+        float: left;
+        background-color: #cccccc;
+        text-align: center;
+    }
+    .roll {
+        color: #0000cc;
+        font-size: 1.5em;
+    }
+    .van1, .van2, .van3{
+        width: 33%;
+        float: left;
+        text-align: center;
+        color: #ff0000;
+    }
+    .content p {
+        width: 100%;
+        float: left;
+        background-color: #33ffcc;
+        text-align: justify;
+    }
+    section img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    header img {
+        height: 100px;
+        width: auto;
+    }
+}

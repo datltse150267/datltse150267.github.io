@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 27, 2020, 8:01:31 PM
+    Author     : HP
+*/
+
+/** {box-sizing: border-box} khóa độ rộng độ cao của 1 thẻ bất kì khi setup độ rộng cao, chỉnh nội dung bên trong ko làm thay đổi kích thươcs*/
+header {
+    width: 100%;
+    background-color: #ccccff;
+    height: 180px;
+    float: left;
+}
+
+header h1 {
+    width: 60%;
+    display: inline-block;
+}
+header h5 {
+    width: 10%;
+    display: inline-block;
+}
+header h6 {
+    width: 10%;
+    display: inline-block;
+}
+header h2{
+    width: 10%;
+    display: inline-block;
+}
+
+.left {
+    width: 50%;
+    height: 230px;
+    background-color: #3300ff;
+    float: left;
+}
+
+.left a {
+    text-decoration: none; /*bỏ underline of tag a*/
+    color: #ffffff;
+    background-color: #ffcc33;
+    width: 80%;
+    height: 40px;
+    display: inline-block;
+    margin-top: 2%; /*thay đổi độ rộng của thẻ a với không gian section left*/
+    margin-left: 10%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.left a:hover {
+    background-color: #ffffff;
+    color: #ffcc66;
+}
+
+.right1 {
+    width: 50%;
+    height: 30px;
+    background-color: #00ffff;
+    float: left;
+}
+.right2 {
+    width: 50%;
+    height: 200px;
+    background-color: #99ff33;
+    float: left;
+}
+.right2 h2 {
+    text-align: center;    
+    }
+    
+.a {
+    width: 25%;
+    height: 180px;
+    background-color: pink;
+    float: left;
+}
+.b {
+    width: 25%;
+    height: 180px;
+    background-color: red;
+    float: left;
+}
+.c{
+    width: 25%;
+    height: 180px;
+    background-color: green;
+    float: left;
+}
+.d {
+    width: 25%;
+    height: 180px;
+    background-color: yellow;
+    float: left;
+}

@@ -1,0 +1,93 @@
+/*type selector*/
+* {box-sizing: border-box} /*khóa độ rộng độ cao của 1 thẻ bất kì khi setup độ rộng cao, chỉnh nội dung bên trong ko làm thay đổi kích thươcs*/
+header {
+    width: 100%;
+/*    background-color: #ccccff;*/
+    height: 100px;
+    float: left;
+}
+/*Class selection*/
+.left {
+    width: 25%;
+    height: 800px;
+/*    background-color: #ffff33;*/
+    float: left;
+}
+.banner {
+    width: 75%;
+    height: 850px;
+/*    background-color: #ff3333;*/
+    float: left;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #999999;
+    float: left;
+    color: white;
+    text-align: center;
+}
+/*chỉ format p chứa trong header*/
+header p:first-child {
+    width: 10%;
+    display: inline-block;
+}
+header p:nth-child(2) {
+    width: 80%;
+    display: inline-block;
+}
+header p:nth-child(3) {
+    width: 3%;
+    display: inline-block;
+}
+header p:nth-child(4) {
+    width: 5%;
+    display: inline-block;
+}
+.left a {
+    text-decoration: none; /*bỏ underline of tag a*/
+    color: #ffffff;
+    background-color: #ffcc33;
+    width: 80%;
+    height: 20px;
+    display: inline-block;
+    margin-top: 1%; /*thay đổi độ rộng của thẻ a với không gian section left*/
+    margin-left: 10%;
+    text-align: center;
+    font-size: 1.2em;
+}
+.left a:hover {
+    background-color: #ffffff;
+    color: #ffcc66;
+}
+.banner img:first-child {
+    max-width: 100%;  
+}
+.banner div {
+    width: 49%;
+    display: inline-block;
+}
+div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left: 25%;
+}
+div span {
+    font-size: 2em;
+    font-style: italic;
+}
+body {
+   background: #fff;
+   color: 333;
+}
+ 
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+ 
+}
+ 
+/* Dành cho máy tính bảng */
+@media all and (max-width: 1024px) {
+ 
+}
